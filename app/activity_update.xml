@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_margin="20dp"
+	android:orientation="vertical">
+
+
+	<TextView
+		android:id="@+id/textView5"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="62dp"
+		android:layout_marginTop="30dp"
+		android:layout_marginEnd="65dp"
+		android:layout_marginBottom="23dp"
+		android:text="Update a task"
+		android:textAppearance="@style/TextAppearance.AppCompat.Large"
+		android:textColor="#009688"
+		android:textSize="40sp"
+		app:layout_constraintBottom_toTopOf="@+id/textViewId"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<TextView
+		android:id="@+id/textViewId"
+		android:layout_width="37dp"
+		android:layout_height="34dp"
+		android:layout_marginStart="165dp"
+		android:layout_marginTop="23dp"
+		android:layout_marginEnd="195dp"
+		android:layout_marginBottom="69dp"
+		android:text="id"
+		android:textAppearance="@style/TextAppearance.AppCompat.Large"
+		android:textColor="#5D5959"
+		android:textSize="20sp"
+		app:layout_constraintBottom_toTopOf="@+id/textView"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.423"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView5"
+		app:layout_constraintVertical_bias="0.0" />
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Description"
+		android:textAppearance="@style/TextAppearance.AppCompat.Large"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.498"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_bias="0.272" />
+
+	<EditText
+		android:id="@+id/editText"
+		android:layout_width="291dp"
+		android:layout_height="57dp"
+		android:ems="10"
+		android:inputType="text"
+		android:text="tarea"
+		android:textAppearance="@style/TextAppearance.AppCompat.Large"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_bias="0.354" />
+
+	<Button
+		android:id="@+id/accept"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Accept"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toStartOf="@+id/cancel"
+		app:layout_constraintHorizontal_bias="0.473"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/editText"
+		app:layout_constraintVertical_bias="0.243" />
+
+	<Button
+		android:id="@+id/cancel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Cancel"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.799"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/editText"
+		app:layout_constraintVertical_bias="0.243" />
+</androidx.constraintlayout.widget.ConstraintLayout>
