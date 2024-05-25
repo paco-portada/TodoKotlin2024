@@ -2,7 +2,7 @@ Aplicación en Kotlin que se comunica con el API REST en https://laravel.alumno.
 
 Cambiar en el fichero Configuracion.kt la URL con el dominio propio.
 
-![Captura de pantalla](Screenshot.png)
+![Captura de pantalla](screenshots/Screenshot.png)
 
-![Captura de pantalla](Screenshot_panel.png)
+![Captura de pantalla](screenshots/Screenshot_panel.png)
 
